@@ -92,7 +92,7 @@ function displayItem() {
 }
 
 function save() {
-    localStorage.setItem("golds", golds);
+    //localStorage.setItem("golds", golds);
     localStorage.setItem("gps", gps);
     localStorage.setItem("c", c);
     localStorage.setItem("counter", counter);
