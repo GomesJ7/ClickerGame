@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+        <title>ClickerGame</title>
+    </head>
+    <body onload="getGPS()">
+        <h1 id="title">Dragonball Clicker</h1>
+        <div class="gold">
+            <section id="gold">
+            <p>Gold : <span id="score">0</span></p>
+            <button id="addGold" type="button" onclick="addGold(c)">Click</button>
+        </section>
+        </div>
+        <section id="gps">
+            <p>Gold per seconds : <span id="goldpersec"></span></p>
+            <ol>
+                <div class="object">
+                    <div class="obj1">
+                        <img src="images/ssj1.PNG">
+                <li id = "object1"></li>
+                    <p>Cost : <span id = "price1"></span></p>
+                    <span id = "owned1">0</span>
+                <button type = "button" onclick = "buyMinion(1)">Buy</button>
+                </div>
+                <div class="obj2">
+                    <img src="images/ssj2.PNG">
+                <li id = "object2"></li>
+                    <p>Cost : <span id = "price2"></span></p>
+                    <span id = "owned2">0</span>
+                <button type = "button" onclick = "buyMinion(2)">Buy</button>
+                </div>
+                <div class="obj3">
+                    <img src="images/ssj3.PNG">
+                <li id = "object3"></li>
+                    <p>Cost : <span id = "price3"></span></p>
+                    <span id = "owned3">0</span>
+                <button type = "button" onclick = "buyMinion(3)">Buy</button>
+                </div>
+            </div>
+                
+            </ol>
+        </section>
+    </body>
+</html>

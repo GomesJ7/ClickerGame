@@ -1,0 +1,62 @@
+@font-face {
+    font-family: DBFont;
+    src: url(Saiyan-Sans.ttf)
+}
+
+body{
+    background-size: cover;
+    background-color: aqua;
+    background-image: url(images/dragonball.jpg)
+}
+#title {
+    font-family: DBFont;
+    font-size: 90px;
+    text-align: center;
+    color:blue;
+}
+
+.object{
+    margin-top: 20%;
+}
+.obj1{
+    background-color: rgb(97, 94, 94);
+    margin-left: auto;
+    text-align: center;
+    color: whitesmoke;
+}
+.obj2{
+    background-color: rgb(190, 155, 56);
+    margin-left: auto;
+    text-align: center;
+    color: whitesmoke;
+}
+.obj3{
+
+    background-color: rgb(24, 9, 243);
+    margin-left: auto;
+    text-align: center;
+    color: whitesmoke;
+}
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.gold{
+    font-size: 30px;
+    background-image: url(images/boule.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    text-align: center;
+    }
+
+#gps{
+    color: whitesmoke;
+    text-size-adjust: 20px;
+}
