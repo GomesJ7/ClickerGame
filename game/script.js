@@ -103,7 +103,7 @@ function load() {
     counter = localStorage.getItem("counter");
     c = localStorage.getItem("c");
     gps = localStorage.getItem("gps");
-    golds = localStorage.getItem("golds");
+    //golds = localStorage.getItem("golds");
     minions = JSON.parse(localStorage.getItem("savedData"));
     counter = parseInt(counter);
     c = parseInt(c);
